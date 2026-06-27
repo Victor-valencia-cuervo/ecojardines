@@ -19,9 +19,9 @@ function toggleMobileMenu() {
 function scrollToSection(id) {
     const section = document.getElementById(id);
     if (section) {
-        document.getElementById('main-container').scrollTo({
-            top: section.offsetTop,
-            behavior: 'smooth'
+        section.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
         });
     }
 }
