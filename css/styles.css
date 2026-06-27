@@ -73,13 +73,13 @@ body {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: rgba(22, 163, 74, 0.164);
+    background-color: rgba(42, 182, 93, 0.486);
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
 .dot.active {
-    background-color: rgba(22, 163, 74, 0.164);
+    background-color: rgba(22, 163, 74, 0.692);
     transform: scale(1.3);
 }
 
