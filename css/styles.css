@@ -49,7 +49,7 @@ body {
  */
 .hero-section {
     background-image:
-        linear-gradient(rgba(20, 83, 45, 0.7), rgba(20, 83, 45, 0.8)),
+        linear-gradient(rgba(20, 83, 45, 0.158), rgba(20, 83, 45, 0.8)),
         url('../assets/images/hero/hero-bg.jpg');
     background-size: cover;
     background-position: center;
@@ -73,13 +73,13 @@ body {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: rgba(22, 163, 74, 0.3);
+    background-color: rgba(22, 163, 74, 0.164);
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
 .dot.active {
-    background-color: rgba(22, 163, 74, 1);
+    background-color: rgba(22, 163, 74, 0.164);
     transform: scale(1.3);
 }
 
